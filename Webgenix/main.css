@@ -5,7 +5,7 @@ img{
 	height: 500px;
 	width: 80%;
 }
-html,body{
+html{
 	overflow:hidden;
 }
 .carousel-inner{
