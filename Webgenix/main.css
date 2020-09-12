@@ -1,0 +1,88 @@
+body{
+	background-color: maroon;
+}
+img{
+	height: 500px;
+	width: 80%;
+}
+.slide{
+	margin-top: 50px;
+	
+}
+.menu{
+	position: absolute;
+	top: 5%;
+	left:15%;
+}
+.menu:hover{
+	color:blue !important;
+	transition: 0.5s ease;
+}
+.like{
+	position: absolute;
+	top: 5%;
+	right:15%;
+}
+.pos,.pos2,.pos3{
+	position: absolute;
+	bottom: 5%;
+	left:15%;
+	padding: 8px 20px;
+}
+.pos2{
+	left:45%;
+}
+.pos3{
+	left:75%;
+}
+.like:hover{
+	color: pink !important;
+	transition:0.5s ease;
+}
+.carousel-inner{
+	position: relative;
+	overflow-y: inherit;
+}
+.sd{
+	box-shadow: 0 4px 80px #070509;
+	    margin: 15px 0px;
+}
+.carousel-indicators{
+	bottom: -45px;
+}
+@media (prefers-reduced-motion: reduce){
+	.carousel-item {
+		transition: transform 2s ease, opacity .5s ease-out;
+	}
+}
+@media only screen and (max-width:991px){
+	img{
+		height:400px;
+	}
+}
+@media only screen and (max-width:767px){
+	img{
+		height:300px;
+	}
+	.pos,.pos2,.pos3{
+		bottom:8%;
+	}
+	.pos{
+		left:12%;
+	}
+	.pos2{
+		left:42%;
+	}
+	.pos3{
+		left:72%;
+	}
+}
+
+@media only screen and (max-width:767px){
+	img{
+		height:200px;
+	}
+	.pos,.pos2,.pos3{
+		padding: 6px;
+	}
+}
